@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Светлана Процюк — Стихи.ру</title>
+    <style>
+        body { font-family: Tahoma, Verdana, Arial, sans-serif; font-size: 13px; background-color: #E8E8E8; margin: 0; padding: 0; }
+        .top-line { background: #003366; color: white; padding: 5px 20px; font-size: 11px; }
+        .main-wrapper { width: 960px; margin: 0 auto; background: white; border-left: 1px solid #CCC; border-right: 1px solid #CCC; min-height: 800px; padding: 20px; }
+        .header { display: flex; align-items: center; border-bottom: 2px solid #003366; padding-bottom: 10px; margin-bottom: 20px; }
+        
+        /* Стилизация логотипа */
+        .logo { margin-right: 20px; }
+        .logo img { width: 180px; height: auto; }
+        
+        .name { color: #003366; font-size: 24px; font-weight: bold; }
+        .award { background: #FFF8DC; border: 1px solid #DAA520; padding: 20px; text-align: center; margin: 20px 0; }
+        .btn { background: #DAA520; border: none; padding: 12px 25px; font-weight: bold; cursor: pointer; color: white; border-radius: 4px; font-size: 14px; }
+        .btn:hover { background: #b8860b; }
+        img.author-photo { width: 150px; height: 180px; border: 1px solid #999; margin-right: 20px; object-fit: cover; }
+        .footer { text-align: center; font-size: 11px; margin-top: 50px; color: #666; border-top: 1px solid #ccc; padding-top: 10px; }
+        a { color: #003366; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+<div class="top-line">Стихи.ру — Национальный поэтический портал</div>
+
+<div class="main-wrapper">
+    <div class="header">
+        <div class="logo">
+            <img src="logo.gif" alt="Стихи.ру">
+        </div>
+        <div>
+            <div class="name">Светлана Процюк</div>
+            <div>Авторская страница</div>
+        </div>
+    </div>
+
+    <div style="display: flex; margin-bottom: 20px;">
+        <img src="photo.jpg" alt="Светлана Процюк" class="author-photo">
+        <div>
+            <p><b>Произведений:</b> 162</p>
+            <p><b>Читателей:</b> 3396</p>
+            <p></p>
+            <p><b>Регион:</b> Россия</p>
+        </div>
+    </div>
+
+    <div class="award">
+        <h2 style="color: #8B4513; margin-top:0;">ПОЗДРАВЛЯЕМ С ПОБЕДОЙ!</h2>
+        <p>Уважаемая Светлана, ваше творчество признано лучшим в 2026 году!</p>
+        <p>Вы заняли <b>1 МЕСТО</b> в ежегодном поэтическом конкурсе «Золотое перо»!</p>
+        
+        <button class="btn" onclick="window.open('diploma.jpg', '_blank')">
+            ПОЛУЧИТЬ ОФИЦИАЛЬНУЮ ГРАМОТУ
+        </button>
+    </div>
+
+    <h3>Последние произведения:</h3>
+    <hr>
+    <ul>
+        <li><a href="#">Весенний сад</a> — 12.06.2026</li>
+        <li><a href="#">Моя душа</a> — 05.06.2026</li>
+        <li><a href="#">Утренний кофе</a> — 28.05.2026</li>
+    </ul>
+
+    <div class="footer">
+        © Стихи.ру, 2000–2026 | <a href="#">Портал Стихи.ру</a> предоставляет авторам возможность свободной публикации.
+    </div>
+</div>
+
+</body>
+</html>
